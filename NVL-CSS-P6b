@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div p {
+  border: 2px solid;
+  border-color: #fabada;
+}
+.important + p {
+                color: red;
+}
+
+</style>
+</head>
+<body>
+<div>
+<h1>Selectors 1</h1>
+<p class="important">First line</p>
+<p>Second line</p>
+</div>
+<div>
+<h1>Selectors 2</h1>
+<p class="important">First line(1)</p>
+<p>Second line(2)</p>
+</div>
+</body>
+</html>
